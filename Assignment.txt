@@ -1,1 +1,42 @@
-print("Pakistan")
+print("Hellow World")
+print("Pakistani")
+print("This is test file")
+print("-------------")
+print("Irfan","Ahmed","Pakistani",50)
+print("------in one line------")
+print("Irfan","Ahmed","Pakistani",50, sep="\n")
+print("-------using sep and slash n ----------------")
+print("Irfan","Ahmed","Pakistani",50, sep="\t")
+print("-------using slash tab------------")
+print("Irfan", end="*")
+print("Ahmed", end="*")
+print("Pakistani", end="*")
+print("-------replace with *---")
+a = "Irfan Ahmed"
+print("a = ",a)
+print("----------- variable -------")
+a ="irfan"
+b="ahmed"
+type(b)
+print("--------type of b---------")
+a = ["irfan","ahmed", 50]  #list
+print(a[1])
+print("-----list of location 1------")
+a= {
+    'name':'qasim', 
+    'nationality' : 'Pakistani',
+    'age' : 50
+}
+print(a)
+print("---- dict-----")
+a = 1
+while a<=5:
+    print(a)
+    a=a+1
+
+print("--- while loop-----")
+l = ['a','b','c','d']
+for i in l:
+    print(i)
+
+print("---- for loop----")
